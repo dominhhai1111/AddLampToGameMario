@@ -12,6 +12,7 @@
 #import "Cloud.h"
 #import "Block.h"
 #import "TrafficLamp.h"
+#import "SuperMario.h"
 #define city_background_width 1498
 
 @implementation MainScene
@@ -24,6 +25,7 @@
     CGFloat marioRunSpeed;
     TrafficLamp * trafficLamp1;
     TrafficLamp * trafficLamp2;
+    SuperMario* mario;
 }
 
 - (void)viewDidLoad {
@@ -37,12 +39,21 @@
     [self addCity];
     [self addClouds];
     [self addTrafficLamp];
+    [self addSuperMario];
     marioRunSpeed = 20.0;
-    timer = [NSTimer scheduledTimerWithTimeInterval:0.1
+    timer = [NSTimer scheduledTimerWithTimeInterval:0.2
                                              target:self
                                            selector:@selector(gameloop)
                                            userInfo:nil
                                             repeats:true];
+}
+- (void) addSuperMario
+{
+    mario = [[SuperMario alloc] initWithName:@"mario"
+                                     inScene:self];
+    mario.y0 = self.size.height - mario.view.bounds.size.height*0.5 -10 ;
+    mario.view.center = CGPointMake(self.size.width* 0.5, mario.y0);
+    [self addSprite:mario];
 }
 - (void) addCity {
     citySize = CGSizeMake(city_background_width, 400);

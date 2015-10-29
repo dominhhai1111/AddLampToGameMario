@@ -12,6 +12,15 @@
 		E11C7A081BAC3A860070BC38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11C7A071BAC3A860070BC38 /* Images.xcassets */; };
 		E11C7A0B1BAC3A860070BC38 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E11C7A091BAC3A860070BC38 /* LaunchScreen.xib */; };
 		E11C7A171BAC3A870070BC38 /* MarioinCityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C7A161BAC3A870070BC38 /* MarioinCityTests.m */; };
+		E189A32C1BE0BCE800CD6A3F /* SuperMario.m in Sources */ = {isa = PBXBuildFile; fileRef = E189A32B1BE0BCE800CD6A3F /* SuperMario.m */; };
+		E189A3351BE0BE7E00CD6A3F /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E189A32D1BE0BE7E00CD6A3F /* 1.png */; };
+		E189A3361BE0BE7E00CD6A3F /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E189A32E1BE0BE7E00CD6A3F /* 2.png */; };
+		E189A3371BE0BE7E00CD6A3F /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E189A32F1BE0BE7E00CD6A3F /* 3.png */; };
+		E189A3381BE0BE7E00CD6A3F /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = E189A3301BE0BE7E00CD6A3F /* 4.png */; };
+		E189A3391BE0BE7E00CD6A3F /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = E189A3311BE0BE7E00CD6A3F /* 5.png */; };
+		E189A33A1BE0BE7E00CD6A3F /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = E189A3321BE0BE7E00CD6A3F /* 6.png */; };
+		E189A33B1BE0BE7E00CD6A3F /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = E189A3331BE0BE7E00CD6A3F /* 7.png */; };
+		E189A33C1BE0BE7E00CD6A3F /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = E189A3341BE0BE7E00CD6A3F /* 8.png */; };
 		E1A42B181BCE422600C25BD4 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A42B171BCE422600C25BD4 /* Scene.m */; };
 		E1A42B1B1BCE42F700C25BD4 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A42B1A1BCE42F700C25BD4 /* Sprite.m */; };
 		E1A42B1E1BCE462500C25BD4 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A42B1D1BCE462500C25BD4 /* MainScene.m */; };
@@ -49,6 +58,16 @@
 		E11C7A101BAC3A870070BC38 /* MarioinCityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioinCityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11C7A151BAC3A870070BC38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E11C7A161BAC3A870070BC38 /* MarioinCityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarioinCityTests.m; sourceTree = "<group>"; };
+		E189A32A1BE0BCE800CD6A3F /* SuperMario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperMario.h; sourceTree = "<group>"; };
+		E189A32B1BE0BCE800CD6A3F /* SuperMario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperMario.m; sourceTree = "<group>"; };
+		E189A32D1BE0BE7E00CD6A3F /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E189A32E1BE0BE7E00CD6A3F /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		E189A32F1BE0BE7E00CD6A3F /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		E189A3301BE0BE7E00CD6A3F /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		E189A3311BE0BE7E00CD6A3F /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		E189A3321BE0BE7E00CD6A3F /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		E189A3331BE0BE7E00CD6A3F /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		E189A3341BE0BE7E00CD6A3F /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
 		E1A42B161BCE422600C25BD4 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
 		E1A42B171BCE422600C25BD4 /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
 		E1A42B191BCE42F700C25BD4 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
@@ -181,6 +200,8 @@
 				E1A42B261BCE46B000C25BD4 /* Block.m */,
 				E1C733351BE05B9800B7F612 /* TrafficLamp.h */,
 				E1C733361BE05B9800B7F612 /* TrafficLamp.m */,
+				E189A32A1BE0BCE800CD6A3F /* SuperMario.h */,
+				E189A32B1BE0BCE800CD6A3F /* SuperMario.m */,
 			);
 			name = Sprite;
 			sourceTree = "<group>";
@@ -188,6 +209,14 @@
 		E1A42B151BCE41A200C25BD4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E189A32D1BE0BE7E00CD6A3F /* 1.png */,
+				E189A32E1BE0BE7E00CD6A3F /* 2.png */,
+				E189A32F1BE0BE7E00CD6A3F /* 3.png */,
+				E189A3301BE0BE7E00CD6A3F /* 4.png */,
+				E189A3311BE0BE7E00CD6A3F /* 5.png */,
+				E189A3321BE0BE7E00CD6A3F /* 6.png */,
+				E189A3331BE0BE7E00CD6A3F /* 7.png */,
+				E189A3341BE0BE7E00CD6A3F /* 8.png */,
 				E1C733311BE05B6100B7F612 /* TrafficLamp1.png */,
 				E1C733321BE05B6100B7F612 /* TrafficLamp2.png */,
 				E1B86F731BDF28C4006170C5 /* city.png */,
@@ -279,15 +308,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E189A3361BE0BE7E00CD6A3F /* 2.png in Resources */,
 				E11C7A0B1BAC3A860070BC38 /* LaunchScreen.xib in Resources */,
 				E1C733341BE05B6100B7F612 /* TrafficLamp2.png in Resources */,
+				E189A3381BE0BE7E00CD6A3F /* 4.png in Resources */,
+				E189A3371BE0BE7E00CD6A3F /* 3.png in Resources */,
 				E1B86F791BDF28C4006170C5 /* cloud1.png in Resources */,
 				E1B86F7C1BDF28C4006170C5 /* clown.png in Resources */,
 				E11C7A081BAC3A860070BC38 /* Images.xcassets in Resources */,
+				E189A33C1BE0BE7E00CD6A3F /* 8.png in Resources */,
 				E1B86F7A1BDF28C4006170C5 /* cloud2.png in Resources */,
+				E189A33A1BE0BE7E00CD6A3F /* 6.png in Resources */,
 				E1C733331BE05B6100B7F612 /* TrafficLamp1.png in Resources */,
 				E1B86F781BDF28C4006170C5 /* city.png in Resources */,
+				E189A3391BE0BE7E00CD6A3F /* 5.png in Resources */,
 				E1B86F7B1BDF28C4006170C5 /* cloud3.png in Resources */,
+				E189A3351BE0BE7E00CD6A3F /* 1.png in Resources */,
+				E189A33B1BE0BE7E00CD6A3F /* 7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +350,7 @@
 				E1A42B1E1BCE462500C25BD4 /* MainScene.m in Sources */,
 				E1A42B271BCE46B000C25BD4 /* Block.m in Sources */,
 				E1A42B1B1BCE42F700C25BD4 /* Sprite.m in Sources */,
+				E189A32C1BE0BCE800CD6A3F /* SuperMario.m in Sources */,
 				E11C79FD1BAC3A860070BC38 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
