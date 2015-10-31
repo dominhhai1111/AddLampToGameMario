@@ -32,6 +32,8 @@
 		E1B86F7A1BDF28C4006170C5 /* cloud2.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B86F751BDF28C4006170C5 /* cloud2.png */; };
 		E1B86F7B1BDF28C4006170C5 /* cloud3.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B86F761BDF28C4006170C5 /* cloud3.png */; };
 		E1B86F7C1BDF28C4006170C5 /* clown.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B86F771BDF28C4006170C5 /* clown.png */; };
+		E1C56FBE1BE1C89D00372B8B /* FireBall.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C56FBD1BE1C89D00372B8B /* FireBall.m */; };
+		E1C56FC01BE1C8EF00372B8B /* fireball.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C56FBF1BE1C8EF00372B8B /* fireball.png */; };
 		E1C733331BE05B6100B7F612 /* TrafficLamp1.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C733311BE05B6100B7F612 /* TrafficLamp1.png */; };
 		E1C733341BE05B6100B7F612 /* TrafficLamp2.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C733321BE05B6100B7F612 /* TrafficLamp2.png */; };
 		E1C733371BE05B9800B7F612 /* TrafficLamp.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C733361BE05B9800B7F612 /* TrafficLamp.m */; };
@@ -85,6 +87,9 @@
 		E1B86F751BDF28C4006170C5 /* cloud2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud2.png; sourceTree = "<group>"; };
 		E1B86F761BDF28C4006170C5 /* cloud3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud3.png; sourceTree = "<group>"; };
 		E1B86F771BDF28C4006170C5 /* clown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clown.png; sourceTree = "<group>"; };
+		E1C56FBC1BE1C89D00372B8B /* FireBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireBall.h; sourceTree = "<group>"; };
+		E1C56FBD1BE1C89D00372B8B /* FireBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireBall.m; sourceTree = "<group>"; };
+		E1C56FBF1BE1C8EF00372B8B /* fireball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireball.png; sourceTree = "<group>"; };
 		E1C733311BE05B6100B7F612 /* TrafficLamp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrafficLamp1.png; sourceTree = "<group>"; };
 		E1C733321BE05B6100B7F612 /* TrafficLamp2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrafficLamp2.png; sourceTree = "<group>"; };
 		E1C733351BE05B9800B7F612 /* TrafficLamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrafficLamp.h; sourceTree = "<group>"; };
@@ -202,6 +207,8 @@
 				E1C733361BE05B9800B7F612 /* TrafficLamp.m */,
 				E189A32A1BE0BCE800CD6A3F /* SuperMario.h */,
 				E189A32B1BE0BCE800CD6A3F /* SuperMario.m */,
+				E1C56FBC1BE1C89D00372B8B /* FireBall.h */,
+				E1C56FBD1BE1C89D00372B8B /* FireBall.m */,
 			);
 			name = Sprite;
 			sourceTree = "<group>";
@@ -209,6 +216,7 @@
 		E1A42B151BCE41A200C25BD4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E1C56FBF1BE1C8EF00372B8B /* fireball.png */,
 				E189A32D1BE0BE7E00CD6A3F /* 1.png */,
 				E189A32E1BE0BE7E00CD6A3F /* 2.png */,
 				E189A32F1BE0BE7E00CD6A3F /* 3.png */,
@@ -312,6 +320,7 @@
 				E11C7A0B1BAC3A860070BC38 /* LaunchScreen.xib in Resources */,
 				E1C733341BE05B6100B7F612 /* TrafficLamp2.png in Resources */,
 				E189A3381BE0BE7E00CD6A3F /* 4.png in Resources */,
+				E1C56FC01BE1C8EF00372B8B /* fireball.png in Resources */,
 				E189A3371BE0BE7E00CD6A3F /* 3.png in Resources */,
 				E1B86F791BDF28C4006170C5 /* cloud1.png in Resources */,
 				E1B86F7C1BDF28C4006170C5 /* clown.png in Resources */,
@@ -348,6 +357,7 @@
 				E1A42B241BCE469C00C25BD4 /* Cloud.m in Sources */,
 				E1A42B211BCE466900C25BD4 /* City.m in Sources */,
 				E1A42B1E1BCE462500C25BD4 /* MainScene.m in Sources */,
+				E1C56FBE1BE1C89D00372B8B /* FireBall.m in Sources */,
 				E1A42B271BCE46B000C25BD4 /* Block.m in Sources */,
 				E1A42B1B1BCE42F700C25BD4 /* Sprite.m in Sources */,
 				E189A32C1BE0BCE800CD6A3F /* SuperMario.m in Sources */,

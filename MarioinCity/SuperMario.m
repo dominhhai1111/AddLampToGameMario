@@ -7,12 +7,13 @@
 //
 
 #import "SuperMario.h"
-
+#import "FireBall.h"
 @implementation SuperMario
 {
     BOOL isRunning, isJumping , isJumpingAndSanto;
     CGFloat jumpVelocity, fallAcceleration;
     float i ;
+    
 }
 - (instancetype) initWithName: (NSString*) name
                       inScene: (Scene*) scene {
@@ -55,11 +56,13 @@
     
     [singleTap requireGestureRecognizerToFail:doubleTap];
     
+    UISwipeGestureRecognizer *swipeRight = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(fire)];
+    swipeRight.direction = UISwipeGestureRecognizerDirectionRight;
    // [self.scene.view addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self
    //                                                                              action:@selector(startJump)]];
     [self.scene.view addGestureRecognizer:singleTap];
     [self.scene.view addGestureRecognizer:doubleTap];
-
+    [self.scene.view addGestureRecognizer:swipeRight];
 }
 -(void) doDoubleTap{
     if (!isJumpingAndSanto)
@@ -135,6 +138,20 @@
     
     [self.view.layer addAnimation:rotationAnimation forKey:@"rotationAnimation"];
 }
+
+-(void) fire
+{
+    if ( _fireBallCount<7) {
+    _fireBallCount ++;
+    FireBall* fireBall = [[FireBall alloc] initWithName:[NSString stringWithFormat:@"FireBall%d",_fireBallCount]
+                                                inScene:self.scene];
+    fireBall.view.center = CGPointMake(self.view.center.x +5 , self.view.center.y);
+    fireBall.fromSprite = self;
+    [self.scene addSprite:fireBall];
+    [fireBall startFly:20];
+    }
+}
+
 - (void) animate
 {
     if (!self.alive) return;

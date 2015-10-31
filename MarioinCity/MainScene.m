@@ -26,6 +26,7 @@
     TrafficLamp * trafficLamp1;
     TrafficLamp * trafficLamp2;
     SuperMario* mario;
+    UILabel* fireBallLable;
 }
 
 - (void)viewDidLoad {
@@ -40,13 +41,14 @@
     [self addClouds];
     [self addTrafficLamp];
     [self addSuperMario];
-    marioRunSpeed = 20.0;
-    timer = [NSTimer scheduledTimerWithTimeInterval:0.2
+    [self addFireBallCountLable];
+       marioRunSpeed = 20.0;
+    timer = [NSTimer scheduledTimerWithTimeInterval:0.1
                                              target:self
                                            selector:@selector(gameloop)
                                            userInfo:nil
                                             repeats:true];
-}
+   }
 - (void) addSuperMario
 {
     mario = [[SuperMario alloc] initWithName:@"mario"
@@ -111,11 +113,21 @@
     trafficLamp2.speed = -20;
     
     [self addSprite:trafficLamp1];
-    [self addSprite:trafficLamp2];}
-
+    [self addSprite:trafficLamp2];
+}
+-(void) addFireBallCountLable
+{
+    fireBallLable = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 120, 75)];
+    fireBallLable.center = CGPointMake(557, 37.5);
+    fireBallLable.text = [NSString stringWithFormat:@"FireBall: 00%d",7-mario.fireBallCount];
+    fireBallLable.textColor = [UIColor redColor];
+    fireBallLable.font = [UIFont boldSystemFontOfSize:20];
+    [self.view addSubview:fireBallLable];
+}
 
 - (void) gameloop {
     ///
+    fireBallLable.text = [NSString stringWithFormat:@"FireBall: 00%d",7-mario.fireBallCount];
     [self moveCityBackAtSpeed:marioRunSpeed];
     for (Sprite *sprite in self.sprites.allValues) {
         [sprite animate];
