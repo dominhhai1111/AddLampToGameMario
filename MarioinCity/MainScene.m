@@ -195,6 +195,8 @@
 if (CGRectIntersectsRect(boundBlock2, boundMario)){
     [mario getKilled];
     marioRunSpeed = 0.0;
+    [audioPlayer stop];
+    [self playSong:@"Game Over sound effect"];
     [timer invalidate];
     [self gameOver];
     //return true;
