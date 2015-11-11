@@ -12,6 +12,5 @@
 @property (nonatomic, assign) BOOL alive;
 @property (nonatomic, assign) CGFloat y0;
 @property (nonatomic, assign) int fireBallCount;
-
-
+- (void) getKilled;
 @end

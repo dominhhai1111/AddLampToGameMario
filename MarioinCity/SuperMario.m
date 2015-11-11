@@ -159,5 +159,12 @@
     [self Jump];
 }
 
+- (void) getKilled {
+    UIImageView* view = (UIImageView*) self.view;
+    [view stopAnimating];
+    view.image = [UIImage imageNamed:@"marioKilled.png"];
+    self.alive = false;
+   // [self playSong:@"08-you-re-dead"];
+}
 @end
 

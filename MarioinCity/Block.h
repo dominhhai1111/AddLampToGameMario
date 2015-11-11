@@ -9,5 +9,5 @@
 #import "Sprite.h"
 
 @interface Block : Sprite
-
+@property (nonatomic, assign) CGFloat speed;
 @end

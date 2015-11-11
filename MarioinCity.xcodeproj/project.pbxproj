@@ -12,6 +12,7 @@
 		E11C7A081BAC3A860070BC38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11C7A071BAC3A860070BC38 /* Images.xcassets */; };
 		E11C7A0B1BAC3A860070BC38 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E11C7A091BAC3A860070BC38 /* LaunchScreen.xib */; };
 		E11C7A171BAC3A870070BC38 /* MarioinCityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C7A161BAC3A870070BC38 /* MarioinCityTests.m */; };
+		E125991D1BF331CF00710484 /* Game Over sound effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E125991C1BF331CF00710484 /* Game Over sound effect.mp3 */; };
 		E189A32C1BE0BCE800CD6A3F /* SuperMario.m in Sources */ = {isa = PBXBuildFile; fileRef = E189A32B1BE0BCE800CD6A3F /* SuperMario.m */; };
 		E189A3351BE0BE7E00CD6A3F /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E189A32D1BE0BE7E00CD6A3F /* 1.png */; };
 		E189A3361BE0BE7E00CD6A3F /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E189A32E1BE0BE7E00CD6A3F /* 2.png */; };
@@ -21,6 +22,12 @@
 		E189A33A1BE0BE7E00CD6A3F /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = E189A3321BE0BE7E00CD6A3F /* 6.png */; };
 		E189A33B1BE0BE7E00CD6A3F /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = E189A3331BE0BE7E00CD6A3F /* 7.png */; };
 		E189A33C1BE0BE7E00CD6A3F /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = E189A3341BE0BE7E00CD6A3F /* 8.png */; };
+		E19C31181BF2D7170046DE30 /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = E19C31171BF2D7170046DE30 /* block.png */; };
+		E19C311B1BF2E8180046DE30 /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = E19C31191BF2E8180046DE30 /* gameover.png */; };
+		E19C311C1BF2E8180046DE30 /* marioKilled.png in Resources */ = {isa = PBXBuildFile; fileRef = E19C311A1BF2E8180046DE30 /* marioKilled.png */; };
+		E19C311E1BF2F2260046DE30 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19C311D1BF2F2260046DE30 /* AVFoundation.framework */; };
+		E19C31221BF2F4770046DE30 /* Canon In D - Various Artists.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E19C31211BF2F4770046DE30 /* Canon In D - Various Artists.mp3 */; };
+		E19C31241BF2F6F10046DE30 /* Levan Polkka - Hatsune Miku.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E19C31231BF2F6F10046DE30 /* Levan Polkka - Hatsune Miku.mp3 */; };
 		E1A42B181BCE422600C25BD4 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A42B171BCE422600C25BD4 /* Scene.m */; };
 		E1A42B1B1BCE42F700C25BD4 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A42B1A1BCE42F700C25BD4 /* Sprite.m */; };
 		E1A42B1E1BCE462500C25BD4 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A42B1D1BCE462500C25BD4 /* MainScene.m */; };
@@ -60,6 +67,7 @@
 		E11C7A101BAC3A870070BC38 /* MarioinCityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioinCityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11C7A151BAC3A870070BC38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E11C7A161BAC3A870070BC38 /* MarioinCityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarioinCityTests.m; sourceTree = "<group>"; };
+		E125991C1BF331CF00710484 /* Game Over sound effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Game Over sound effect.mp3"; sourceTree = "<group>"; };
 		E189A32A1BE0BCE800CD6A3F /* SuperMario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperMario.h; sourceTree = "<group>"; };
 		E189A32B1BE0BCE800CD6A3F /* SuperMario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperMario.m; sourceTree = "<group>"; };
 		E189A32D1BE0BE7E00CD6A3F /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
@@ -70,6 +78,12 @@
 		E189A3321BE0BE7E00CD6A3F /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		E189A3331BE0BE7E00CD6A3F /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
 		E189A3341BE0BE7E00CD6A3F /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		E19C31171BF2D7170046DE30 /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block.png; sourceTree = "<group>"; };
+		E19C31191BF2E8180046DE30 /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
+		E19C311A1BF2E8180046DE30 /* marioKilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marioKilled.png; sourceTree = "<group>"; };
+		E19C311D1BF2F2260046DE30 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E19C31211BF2F4770046DE30 /* Canon In D - Various Artists.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Canon In D - Various Artists.mp3"; sourceTree = "<group>"; };
+		E19C31231BF2F6F10046DE30 /* Levan Polkka - Hatsune Miku.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Levan Polkka - Hatsune Miku.mp3"; sourceTree = "<group>"; };
 		E1A42B161BCE422600C25BD4 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
 		E1A42B171BCE422600C25BD4 /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
 		E1A42B191BCE42F700C25BD4 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
@@ -101,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19C311E1BF2F2260046DE30 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +132,7 @@
 		E11C79EE1BAC3A860070BC38 = {
 			isa = PBXGroup;
 			children = (
+				E19C311D1BF2F2260046DE30 /* AVFoundation.framework */,
 				E11C79F91BAC3A860070BC38 /* MarioinCity */,
 				E11C7A131BAC3A870070BC38 /* MarioinCityTests */,
 				E11C79F81BAC3A860070BC38 /* Products */,
@@ -216,6 +232,12 @@
 		E1A42B151BCE41A200C25BD4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E125991C1BF331CF00710484 /* Game Over sound effect.mp3 */,
+				E19C31231BF2F6F10046DE30 /* Levan Polkka - Hatsune Miku.mp3 */,
+				E19C31211BF2F4770046DE30 /* Canon In D - Various Artists.mp3 */,
+				E19C31191BF2E8180046DE30 /* gameover.png */,
+				E19C311A1BF2E8180046DE30 /* marioKilled.png */,
+				E19C31171BF2D7170046DE30 /* block.png */,
 				E1C56FBF1BE1C8EF00372B8B /* fireball.png */,
 				E189A32D1BE0BE7E00CD6A3F /* 1.png */,
 				E189A32E1BE0BE7E00CD6A3F /* 2.png */,
@@ -317,8 +339,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E189A3361BE0BE7E00CD6A3F /* 2.png in Resources */,
+				E19C311B1BF2E8180046DE30 /* gameover.png in Resources */,
 				E11C7A0B1BAC3A860070BC38 /* LaunchScreen.xib in Resources */,
+				E19C311C1BF2E8180046DE30 /* marioKilled.png in Resources */,
+				E125991D1BF331CF00710484 /* Game Over sound effect.mp3 in Resources */,
 				E1C733341BE05B6100B7F612 /* TrafficLamp2.png in Resources */,
+				E19C31241BF2F6F10046DE30 /* Levan Polkka - Hatsune Miku.mp3 in Resources */,
 				E189A3381BE0BE7E00CD6A3F /* 4.png in Resources */,
 				E1C56FC01BE1C8EF00372B8B /* fireball.png in Resources */,
 				E189A3371BE0BE7E00CD6A3F /* 3.png in Resources */,
@@ -329,8 +355,10 @@
 				E1B86F7A1BDF28C4006170C5 /* cloud2.png in Resources */,
 				E189A33A1BE0BE7E00CD6A3F /* 6.png in Resources */,
 				E1C733331BE05B6100B7F612 /* TrafficLamp1.png in Resources */,
+				E19C31181BF2D7170046DE30 /* block.png in Resources */,
 				E1B86F781BDF28C4006170C5 /* city.png in Resources */,
 				E189A3391BE0BE7E00CD6A3F /* 5.png in Resources */,
+				E19C31221BF2F4770046DE30 /* Canon In D - Various Artists.mp3 in Resources */,
 				E1B86F7B1BDF28C4006170C5 /* cloud3.png in Resources */,
 				E189A3351BE0BE7E00CD6A3F /* 1.png in Resources */,
 				E189A33B1BE0BE7E00CD6A3F /* 7.png in Resources */,
